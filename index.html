@@ -5,7 +5,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="color-scheme" content="light dark">
 <title>Kubo · KuboGo y KuboSales</title>
-<meta name="description" content="Kubo: KuboGo lleva las cuentas del negocio y KuboSales atiende el mostrador. Sin conexión, en el teléfono.">
+<meta name="description" content="KuboGo lleva las cuentas de tu negocio y KuboSales atiende el mostrador. Funcionan sin conexión y los datos se quedan en tu teléfono.">
+<meta property="og:title" content="Kubo · KuboGo y KuboSales">
+<meta property="og:description" content="Inventario, ventas y caja para un negocio pequeño. Sin conexión y sin servidores: los datos se quedan en tu teléfono.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://gemesisapps.github.io/">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -13,6 +17,7 @@
   :root {
     --bg: #F2F2F7;
     --card: #FFFFFF;
+    --raised: #E5E5EA;
     --text: #1C1C1E;
     --muted: #636366;
     --accent: #5856B8;
@@ -23,6 +28,7 @@
     :root {
       --bg: #0B0B0D;
       --card: #1C1C1E;
+      --raised: #2C2C2E;
       --text: #F5F5F7;
       --muted: #A1A1A6;
       --accent-soft: rgba(88, 86, 184, 0.24);
@@ -30,7 +36,7 @@
     }
   }
   *, *::before, *::after { box-sizing: border-box; }
-  html { -webkit-text-size-adjust: 100%; }
+  html { -webkit-text-size-adjust: 100%; scroll-behavior: smooth; }
   body {
     margin: 0;
     background: var(--bg);
@@ -40,45 +46,215 @@
     line-height: 1.65;
     overflow-wrap: break-word;
   }
-  .wrap { max-width: 720px; margin: 0 auto; padding: 48px 16px 56px; }
-  .apps { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 24px; }
+  .wrap { max-width: 880px; margin: 0 auto; padding: 0 16px; }
+  nav {
+    border-bottom: 1px solid var(--line);
+    position: sticky; top: 0; z-index: 10;
+    background: var(--bg);
+  }
+  nav .wrap { display: flex; align-items: center; gap: 16px; padding-top: 14px; padding-bottom: 14px; flex-wrap: wrap; }
+  .marca { font-weight: 600; font-size: 18px; margin-right: auto; }
+  nav a { color: var(--muted); text-decoration: none; font-size: 15px; }
+  nav a:hover { color: var(--accent); }
+
+  header { padding: 48px 0 8px; }
+  .apps { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 20px; }
   .badge {
     display: inline-block; padding: 6px 14px; border-radius: 999px;
     background: var(--accent-soft); color: var(--accent);
     font-weight: 600; font-size: 14px;
   }
-  h1 { font-size: 30px; font-weight: 600; line-height: 1.25; margin: 0 0 12px; }
-  .lead { color: var(--muted); margin: 0 0 32px; }
+  h1 { font-size: 34px; font-weight: 600; line-height: 1.2; margin: 0 0 14px; }
+  .lead { color: var(--muted); font-size: 18px; margin: 0 0 8px; max-width: 640px; }
+
+  section { padding: 40px 0; }
+  h2 { font-size: 24px; font-weight: 600; margin: 0 0 8px; }
+  h3 { font-size: 18px; font-weight: 600; margin: 0 0 6px; }
+  .sub { color: var(--muted); margin: 0 0 24px; max-width: 640px; }
+
+  .rejilla { display: grid; gap: 14px; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); }
   .card {
     background: var(--card); border: 1px solid var(--line);
-    border-radius: 16px; padding: 20px 22px; margin-bottom: 14px;
+    border-radius: 16px; padding: 22px;
   }
-  .card h2 { font-size: 18px; font-weight: 600; margin: 0 0 6px; }
   .card p { margin: 0; color: var(--muted); }
+  .card p + p { margin-top: 10px; }
+  ul { margin: 10px 0 0; padding-left: 20px; color: var(--muted); }
+  li { margin-bottom: 6px; }
+
+  .tiras { display: grid; gap: 16px; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); }
+  figure { margin: 0; }
+  figure img {
+    width: 100%; height: auto; display: block;
+    border-radius: 14px; border: 1px solid var(--line);
+    background: var(--raised);
+  }
+  figcaption { color: var(--muted); font-size: 14px; margin-top: 8px; }
+
   a { color: var(--accent); font-weight: 500; }
-  footer { margin-top: 32px; color: var(--muted); font-size: 14px; }
+  footer { border-top: 1px solid var(--line); padding: 28px 0 48px; color: var(--muted); font-size: 15px; }
+  footer p { margin: 0 0 6px; }
+  .nota { font-size: 14px; color: var(--muted); }
 </style>
 </head>
 <body>
-<div class="wrap">
+
+<nav>
+  <div class="wrap">
+    <span class="marca">Kubo</span>
+    <a href="#apps">Las apps</a>
+    <a href="#como">Cómo funciona</a>
+    <a href="#pantallas">Pantallas</a>
+    <a href="#licencia">Licencia</a>
+    <a href="privacidad/">Privacidad</a>
+  </div>
+</nav>
+
+<header class="wrap">
   <div class="apps">
     <span class="badge">KuboGo</span>
     <span class="badge">KuboSales</span>
   </div>
-
   <h1>Las cuentas de tu negocio, en el teléfono</h1>
   <p class="lead">
-    <strong>KuboGo</strong> lleva las compras, el inventario y el capital.
-    <strong>KuboSales</strong> atiende el mostrador: vende, lleva el turno y cuadra la caja.
-    Funcionan sin conexión, y los datos se quedan en tu teléfono.
+    Kubo son dos apps de Android para un negocio pequeño: una bodega, un puesto, un mostrador.
+    <strong>KuboGo</strong> lleva las compras, el inventario y el capital. <strong>KuboSales</strong>
+    atiende el mostrador: vende, lleva el turno y cuadra la caja.
   </p>
+  <p class="lead">
+    Funcionan <strong>sin conexión a internet</strong> y los datos se quedan en el teléfono: no hay
+    cuentas de usuario ni servidores donde guardarlos.
+  </p>
+</header>
 
-  <div class="card">
-    <h2><a href="privacidad/">Política de privacidad</a></h2>
-    <p>Qué guardan las apps, dónde se guarda y cuándo sale algo del teléfono.</p>
+<section id="apps" class="wrap">
+  <h2>Dos apps, cada una para lo suyo</h2>
+  <p class="sub">
+    Se pueden usar juntas o por separado. Quien vende solo, con KuboSales tiene bastante; quien
+    además compra y cuadra, usa las dos.
+  </p>
+  <div class="rejilla">
+    <div class="card">
+      <h3>KuboGo</h3>
+      <p>Para quien lleva el negocio.</p>
+      <ul>
+        <li>Entradas de compra, con su costo y su proveedor</li>
+        <li>Inventario por almacén y por punto de venta</li>
+        <li>Capital, aportes, extracciones y utilidad</li>
+        <li>Cierres de turno que llegan de los vendedores</li>
+        <li>Precios por lista y márgenes por producto</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>KuboSales</h3>
+      <p>Para quien atiende el mostrador.</p>
+      <ul>
+        <li>Venta con búsqueda y lector de códigos de barras</li>
+        <li>Varias órdenes abiertas a la vez</li>
+        <li>Efectivo, transferencia, fiado y abonos</li>
+        <li>Turno con su caja, su conteo y su cierre</li>
+        <li>Ticket por impresora Bluetooth</li>
+      </ul>
+    </div>
   </div>
+</section>
 
-  <footer>Kubo · <a href="mailto:gemesisapp@gmail.com">gemesisapp@gmail.com</a></footer>
-</div>
+<section id="como" class="wrap">
+  <h2>Cómo funciona</h2>
+  <p class="sub">Sin servidores de por medio. Lo que se comparte, lo comparte quien usa la app.</p>
+  <div class="rejilla">
+    <div class="card">
+      <h3>Todo en el teléfono</h3>
+      <p>
+        Productos, ventas, caja y fotos se guardan en el propio aparato. No hay que registrarse ni
+        crear una cuenta, y la app funciona igual sin cobertura.
+      </p>
+    </div>
+    <div class="card">
+      <h3>Del dueño al vendedor</h3>
+      <p>
+        La mercancía de un turno viaja en un archivo que se manda por WhatsApp o por Bluetooth, y el
+        cierre vuelve por el mismo camino. Lo manda una persona, no la app por su cuenta.
+      </p>
+    </div>
+    <div class="card">
+      <h3>En un solo teléfono</h3>
+      <p>
+        Con las dos apps instaladas se entienden entre ellas: lo que se da de entrada en KuboGo
+        aparece en el mostrador de KuboSales sin mandar nada.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section id="pantallas" class="wrap">
+  <h2>Pantallas</h2>
+  <p class="sub">Capturas de KuboSales, tomadas de la app tal como está.</p>
+  <div class="tiras">
+    <figure>
+      <img src="img/vender.jpg" alt="Pantalla de venta de KuboSales con la rejilla de productos" loading="lazy" width="420" height="840">
+      <figcaption>Vender: los productos con su precio y sus existencias.</figcaption>
+    </figure>
+    <figure>
+      <img src="img/cobrar.jpg" alt="Pantalla de cobro con teclado numérico y formas de pago" loading="lazy" width="420" height="840">
+      <figcaption>Cobrar: efectivo, transferencia, fiado o consumo de la casa.</figcaption>
+    </figure>
+    <figure>
+      <img src="img/turno.jpg" alt="Resumen del turno abierto con su total y sus órdenes" loading="lazy" width="420" height="840">
+      <figcaption>El turno: lo vendido, las órdenes y la caja.</figcaption>
+    </figure>
+    <figure>
+      <img src="img/inventario.jpg" alt="Inventario del turno por producto" loading="lazy" width="420" height="840">
+      <figcaption>Inventario: qué había, qué se vendió y qué debe quedar.</figcaption>
+    </figure>
+  </div>
+</section>
+
+<section id="licencia" class="wrap">
+  <h2>Licencia y modo demo</h2>
+  <div class="rejilla">
+    <div class="card">
+      <h3>Probarlas</h3>
+      <p>
+        Las dos apps traen un <strong>modo demo</strong>: se entra desde la pantalla inicial, sin
+        código y sin registrarse. Monta un negocio de ejemplo con productos y mercancía para probarlo
+        todo. Dura unos días y después se borra solo.
+      </p>
+    </div>
+    <div class="card">
+      <h3>Usarlas con tu negocio</h3>
+      <p>
+        Para trabajar con tus datos hace falta una licencia, que se activa escaneando un código QR.
+        Escríbenos y te decimos cómo conseguirla.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section class="wrap">
+  <h2>Permisos que piden</h2>
+  <p class="sub">Solo estos dos, y cada uno para algo que se ve en pantalla.</p>
+  <div class="rejilla">
+    <div class="card">
+      <h3>Cámara</h3>
+      <p>Para leer códigos de barras y códigos QR, y para hacerle la foto a un producto.</p>
+    </div>
+    <div class="card">
+      <h3>Bluetooth</h3>
+      <p>Para imprimir el ticket en una impresora térmica y para pasar archivos entre dos teléfonos.</p>
+    </div>
+  </div>
+  <p class="nota" style="margin-top:16px">
+    No piden ubicación ni contactos. En la <a href="privacidad/">política de privacidad</a> está el
+    detalle de qué guarda cada app y cuándo sale algo del teléfono.
+  </p>
+</section>
+
+<footer class="wrap">
+  <p><strong>Kubo</strong> — KuboGo y KuboSales, aplicaciones de Android.</p>
+  <p>Contacto: <a href="mailto:gemesisapp@gmail.com">gemesisapp@gmail.com</a></p>
+  <p><a href="privacidad/">Política de privacidad</a></p>
+</footer>
+
 </body>
 </html>
