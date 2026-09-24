@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>Política de privacidad · KuboGo y KuboSales</title>
+<meta name="description" content="Política de privacidad de las apps KuboGo y KuboSales. Los datos del negocio se guardan solo en el teléfono.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #F2F2F7;
+    --card: #FFFFFF;
+    --raised: #E5E5EA;
+    --text: #1C1C1E;
+    --muted: #636366;
+    --accent: #5856B8;
+    --accent-soft: rgba(88, 86, 184, 0.12);
+    --line: rgba(60, 60, 67, 0.14);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0B0B0D;
+      --card: #1C1C1E;
+      --raised: #2C2C2E;
+      --text: #F5F5F7;
+      --muted: #A1A1A6;
+      --accent: #5856B8;
+      --accent-soft: rgba(88, 86, 184, 0.24);
+      --line: rgba(255, 255, 255, 0.08);
+    }
+  }
+  *, *::before, *::after { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: "Poppins", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    font-size: 16px;
+    line-height: 1.65;
+    overflow-wrap: break-word;
+  }
+  .wrap {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 32px 16px 56px;
+  }
+  header { margin-bottom: 28px; }
+  .apps { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 20px; }
+  .badge {
+    display: inline-block;
+    padding: 6px 14px;
+    border-radius: 999px;
+    background: var(--accent-soft);
+    color: var(--accent);
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 0.2px;
+  }
+  @media (prefers-color-scheme: dark) {
+    .badge { color: #C9C8F2; }
+  }
+  h1 {
+    margin: 0 0 6px;
+    font-size: 30px;
+    line-height: 1.2;
+    font-weight: 700;
+  }
+  .date { margin: 0; color: var(--muted); font-size: 14px; }
+  .card {
+    background: var(--card);
+    border-radius: 16px;
+    padding: 22px 20px;
+    margin-bottom: 16px;
+    border: 1px solid var(--line);
+  }
+  .card.summary { border-left: 4px solid var(--accent); }
+  h2 {
+    margin: 0 0 10px;
+    font-size: 19px;
+    line-height: 1.35;
+    font-weight: 600;
+  }
+  h3 {
+    margin: 16px 0 4px;
+    font-size: 16px;
+    font-weight: 600;
+  }
+  p { margin: 0 0 12px; }
+  p:last-child, ul:last-child { margin-bottom: 0; }
+  ul { margin: 0 0 12px; padding-left: 20px; }
+  li { margin-bottom: 6px; }
+  li::marker { color: var(--accent); }
+  strong { font-weight: 600; }
+  .muted { color: var(--muted); }
+  code {
+    font-family: ui-monospace, "SFMono-Regular", Consolas, monospace;
+    font-size: 0.88em;
+    background: var(--raised);
+    padding: 1px 6px;
+    border-radius: 6px;
+    overflow-wrap: anywhere;
+  }
+  a { color: var(--accent); font-weight: 500; overflow-wrap: anywhere; }
+  @media (prefers-color-scheme: dark) {
+    a { color: #A9A7F0; }
+  }
+  .perm {
+    background: var(--raised);
+    border-radius: 12px;
+    padding: 14px 16px;
+    margin-bottom: 10px;
+  }
+  .perm:last-child { margin-bottom: 0; }
+  .perm h3 { margin-top: 0; }
+  .perm p { margin: 0; }
+  footer {
+    margin-top: 28px;
+    text-align: center;
+    color: var(--muted);
+    font-size: 13px;
+  }
+  @media (min-width: 600px) {
+    .wrap { padding: 56px 24px 72px; }
+    h1 { font-size: 36px; }
+    .card { padding: 26px 28px; }
+  }
+</style>
+</head>
+<body>
+<main class="wrap">
+
+  <header>
+    <div class="apps">
+      <span class="badge">KuboGo</span>
+      <span class="badge">KuboSales</span>
+    </div>
+    <h1>Política de privacidad</h1>
+    <p class="date">Última actualización: 23 de septiembre de 2026</p>
+  </header>
+
+  <section class="card summary">
+    <h2>En pocas palabras</h2>
+    <ul>
+      <li>Los datos de tu negocio se guardan <strong>solo en tu teléfono</strong>. No tenemos servidores ni cuentas de usuario, y no recibimos tus datos.</li>
+      <li>Los datos solo salen del teléfono <strong>cuando tú decides enviarlos</strong> (por ejemplo, por WhatsApp o Bluetooth).</li>
+      <li>No hay publicidad, no vendemos datos y no te rastreamos.</li>
+      <li>El lector de códigos de barras usa Google ML Kit, que envía a Google datos técnicos de funcionamiento (nunca las imágenes). Lo explicamos abajo.</li>
+    </ul>
+  </section>
+
+  <section class="card">
+    <h2>1. A qué apps se aplica y quién es el responsable</h2>
+    <p>Esta política se aplica a dos apps de Android:</p>
+    <ul>
+      <li><strong>KuboGo</strong> (<code>com.gemesis.go</code>): para el dueño del negocio. Compras, inventario, capital y reportes.</li>
+      <li><strong>KuboSales</strong> (<code>com.gemesis.sales</code>): punto de venta para el mostrador. Ventas, turnos y caja.</li>
+    </ul>
+    <p>Responsable: Yoel, desarrollador de las apps. Contacto: <a href="mailto:yoel@tecopos.com">yoel@tecopos.com</a>.</p>
+  </section>
+
+  <section class="card">
+    <h2>2. Qué datos guardan las apps</h2>
+    <p>Las apps guardan únicamente lo que tú escribes o eliges registrar para llevar tu negocio:</p>
+    <ul>
+      <li>Productos, precios, costos y existencias.</li>
+      <li>Ventas, pagos y movimientos de caja.</li>
+      <li>Nombres y teléfonos de vendedores, proveedores o compradores, solo si decides registrarlos.</li>
+      <li>Fotos de productos y el logotipo que se imprime en los recibos, si decides añadirlos.</li>
+    </ul>
+    <p>No pedimos tu nombre, tu correo ni ningún dato para crear una cuenta, porque las apps no tienen cuentas ni inicio de sesión.</p>
+  </section>
+
+  <section class="card">
+    <h2>3. Dónde se guardan</h2>
+    <p>Todo se guarda en una base de datos local dentro de la app, en tu teléfono. No hay servidor ni sincronización en la nube operados por nosotros. <strong>Nosotros no recibimos ni tenemos acceso a los datos de tu negocio.</strong></p>
+  </section>
+
+  <section class="card">
+    <h2>4. Cuándo salen datos del teléfono</h2>
+    <h3>Solo cuando tú los envías</h3>
+    <p>Las apps pueden generar archivos (archivos <code>.gm</code>, copias de seguridad) y códigos QR para pasar información entre los teléfonos de un mismo negocio, por ejemplo, del teléfono del dueño al de un vendedor. Tú eliges si los envías y por dónde: WhatsApp, Bluetooth o cualquier otra opción de compartir de tu teléfono.</p>
+    <p>Las apps pueden dejar preparado un mensaje de WhatsApp, pero eres tú quien lo envía. Una vez compartidos, esos archivos quedan en manos de la app o servicio que elegiste, que los trata según su propia política de privacidad.</p>
+    <h3>Entre KuboGo y KuboSales en el mismo teléfono</h3>
+    <p>Si tienes las dos apps instaladas en el mismo teléfono, intercambian datos entre sí de forma local, mediante un canal de Android que solo pueden usar apps firmadas por el mismo desarrollador. Nada sale del teléfono.</p>
+    <h3>Datos técnicos del lector de códigos</h3>
+    <p>La única excepción son los datos técnicos que envía Google ML Kit, descritos en el punto 7.</p>
+  </section>
+
+  <section class="card">
+    <h2>5. Licencias</h2>
+    <p>Las licencias se activan escaneando un código QR. La licencia contiene el nombre del negocio y los límites del plan contratado. La activación no se comprueba por internet: no se envía nada a ningún servidor.</p>
+  </section>
+
+  <section class="card">
+    <h2>6. Permisos que piden las apps</h2>
+    <div class="perm">
+      <h3>Cámara</h3>
+      <p>Para escanear códigos de barras y códigos QR (incluido el QR de la licencia) y, si quieres, para tomar fotos de productos. Las fotos se quedan en el teléfono.</p>
+    </div>
+    <div class="perm">
+      <h3>Bluetooth y dispositivos cercanos</h3>
+      <p>Para imprimir recibos en impresoras térmicas Bluetooth y para enviar archivos entre teléfonos. Las apps declaran a Android que este permiso <strong>no se usa para conocer tu ubicación</strong>. En Android 11 o anterior se usan en su lugar los permisos Bluetooth antiguos equivalentes.</p>
+    </div>
+    <div class="perm">
+      <h3>Acceso a internet y estado de la red</h3>
+      <p>Los añade la biblioteca Google ML Kit (punto 7). Las apps no usan internet para enviar los datos de tu negocio.</p>
+    </div>
+    <p class="muted" style="margin-top:12px">Las apps <strong>no</strong> piden permiso de ubicación ni de contactos. Las fotos y archivos se eligen con el selector del propio Android, así que las apps solo ven lo que tú eliges, no todo tu almacenamiento.</p>
+  </section>
+
+  <section class="card">
+    <h2>7. Servicio de terceros: Google ML Kit</h2>
+    <p>Para leer códigos de barras usamos <strong>Google ML Kit</strong>, con un modelo que viene incluido en la app. El reconocimiento se hace en el teléfono: según Google, <strong>las imágenes de la cámara y los códigos leídos no se envían a Google</strong>.</p>
+    <p>ML Kit sí envía a Google datos técnicos sobre su funcionamiento, como el modelo del teléfono y la versión de Android, el nombre y la versión de la app, un identificador de la instalación, tiempos de respuesta y códigos de error. Google indica que usa estos datos para medir el rendimiento, corregir fallos, mantener y mejorar el servicio y detectar usos indebidos; que los envía cifrados (HTTPS) y que no los transfiere a terceros. Estos datos no incluyen información de tu negocio. ML Kit también puede conectarse con Google para recibir correcciones y actualizaciones del servicio.</p>
+    <p>Por este motivo las apps tienen los permisos de internet y de estado de la red. Más información:</p>
+    <ul>
+      <li><a href="https://developers.google.com/ml-kit/terms">Términos y privacidad de ML Kit</a></li>
+      <li><a href="https://developers.google.com/ml-kit/android-data-disclosure">Datos que recoge ML Kit en Android</a></li>
+      <li><a href="https://policies.google.com/privacy">Política de privacidad de Google</a></li>
+    </ul>
+  </section>
+
+  <section class="card">
+    <h2>8. Lo que no hacemos</h2>
+    <ul>
+      <li>No mostramos publicidad.</li>
+      <li>No incluimos herramientas de analítica propias.</li>
+      <li>No vendemos ni alquilamos datos.</li>
+      <li>No te rastreamos ni creamos perfiles.</li>
+    </ul>
+  </section>
+
+  <section class="card">
+    <h2>9. Cómo borrar tus datos</h2>
+    <ul>
+      <li><strong>Desinstalar la app</strong> o borrar sus datos en los ajustes de Android elimina todo lo que guarda en el teléfono.</li>
+      <li>Dentro de la app puedes borrar turnos antiguos.</li>
+      <li>Las copias de seguridad y archivos que hayas exportado siguen donde los guardaste o enviaste; bórralos tú desde allí si ya no los necesitas.</li>
+    </ul>
+    <p>Como nosotros no guardamos tus datos, no hay nada que tengamos que borrar en nuestro lado.</p>
+  </section>
+
+  <section class="card">
+    <h2>10. Seguridad</h2>
+    <p>Los datos se quedan en el teléfono, protegidos por el aislamiento que Android aplica a cada app: otras apps no pueden leerlos. Tú eres responsable de proteger el acceso al teléfono (por ejemplo, con bloqueo de pantalla) y de cuidar los archivos que compartes.</p>
+  </section>
+
+  <section class="card">
+    <h2>11. Menores de edad</h2>
+    <p>KuboGo y KuboSales son herramientas para negocios. No están dirigidas a menores de 13 años.</p>
+  </section>
+
+  <section class="card">
+    <h2>12. Cambios en esta política</h2>
+    <p>Podemos actualizar esta política. Cuando lo hagamos, cambiará la fecha de «Última actualización» al principio de la página.</p>
+  </section>
+
+  <section class="card">
+    <h2>13. Contacto</h2>
+    <p>Si tienes preguntas sobre esta política o sobre tus datos, escribe a <a href="mailto:yoel@tecopos.com">yoel@tecopos.com</a>.</p>
+  </section>
+
+  <footer>KuboGo · KuboSales</footer>
+
+</main>
+</body>
+</html>

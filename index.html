@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>Kubo · KuboGo y KuboSales</title>
+<meta name="description" content="Kubo: KuboGo lleva las cuentas del negocio y KuboSales atiende el mostrador. Sin conexión, en el teléfono.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #F2F2F7;
+    --card: #FFFFFF;
+    --text: #1C1C1E;
+    --muted: #636366;
+    --accent: #5856B8;
+    --accent-soft: rgba(88, 86, 184, 0.12);
+    --line: rgba(60, 60, 67, 0.14);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0B0B0D;
+      --card: #1C1C1E;
+      --text: #F5F5F7;
+      --muted: #A1A1A6;
+      --accent-soft: rgba(88, 86, 184, 0.24);
+      --line: rgba(255, 255, 255, 0.08);
+    }
+  }
+  *, *::before, *::after { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: "Poppins", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    font-size: 16px;
+    line-height: 1.65;
+    overflow-wrap: break-word;
+  }
+  .wrap { max-width: 720px; margin: 0 auto; padding: 48px 16px 56px; }
+  .apps { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 24px; }
+  .badge {
+    display: inline-block; padding: 6px 14px; border-radius: 999px;
+    background: var(--accent-soft); color: var(--accent);
+    font-weight: 600; font-size: 14px;
+  }
+  h1 { font-size: 30px; font-weight: 600; line-height: 1.25; margin: 0 0 12px; }
+  .lead { color: var(--muted); margin: 0 0 32px; }
+  .card {
+    background: var(--card); border: 1px solid var(--line);
+    border-radius: 16px; padding: 20px 22px; margin-bottom: 14px;
+  }
+  .card h2 { font-size: 18px; font-weight: 600; margin: 0 0 6px; }
+  .card p { margin: 0; color: var(--muted); }
+  a { color: var(--accent); font-weight: 500; }
+  footer { margin-top: 32px; color: var(--muted); font-size: 14px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="apps">
+    <span class="badge">KuboGo</span>
+    <span class="badge">KuboSales</span>
+  </div>
+
+  <h1>Las cuentas de tu negocio, en el teléfono</h1>
+  <p class="lead">
+    <strong>KuboGo</strong> lleva las compras, el inventario y el capital.
+    <strong>KuboSales</strong> atiende el mostrador: vende, lleva el turno y cuadra la caja.
+    Funcionan sin conexión, y los datos se quedan en tu teléfono.
+  </p>
+
+  <div class="card">
+    <h2><a href="privacidad/">Política de privacidad</a></h2>
+    <p>Qué guardan las apps, dónde se guarda y cuándo sale algo del teléfono.</p>
+  </div>
+
+  <footer>Kubo · <a href="mailto:yoel@tecopos.com">yoel@tecopos.com</a></footer>
+</div>
+</body>
+</html>
