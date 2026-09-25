@@ -10,6 +10,17 @@
         "Un tutorial corto la primera vez que abres la app.",
         "Si un vendedor instala también KuboGo, su KuboSales sigue funcionando con su negocio."
       ]
+    },
+    {
+      "version": 70,
+      "nombre": "4.1",
+      "fecha": "2026-09-24",
+      "novedades": [
+        "Formas de pago con confirmación por SMS del banco",
+        "Transfermóvil preparada para negocios de Cuba (se enciende en Ajustes)",
+        "Avisa cuando hay una versión nueva y enseña lo que trae",
+        "Arreglado el botón Cerrar de los selectores"
+      ]
     }
   ],
   "sales": [
