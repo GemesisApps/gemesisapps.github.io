@@ -194,6 +194,7 @@
     <h3>Comprobar si hay una versión nueva</h3>
     <p>Como mucho dos veces al día, las apps leen un fichero público de esta web (<code>gemesisapps.github.io/novedades.json</code>) con las versiones publicadas y lo que trae cada una, para avisarte de que hay una nueva. Es solo una lectura: <strong>no se envía ningún dato de tu negocio</strong>. Como en cualquier visita a una página web, el servicio que la aloja (GitHub) puede registrar la dirección IP de la conexión.</p>
     <p>Si instalaste la app desde Google Play, también se le pregunta a Google Play si hay una versión nueva, y la descarga la hace Google Play. Las apps nunca descargan ni instalan nada por su cuenta.</p>
+    <p>El SMS de confirmación de un pago, si lo activas, tampoco sale del teléfono: ver el punto 6.</p>
     <h3>Datos técnicos del lector de códigos</h3>
     <p>La única excepción son los datos técnicos que envía Google ML Kit, descritos en el punto 7.</p>
   </section>
@@ -217,7 +218,12 @@
       <h3>Acceso a internet y estado de la red</h3>
       <p>Los añade la biblioteca Google ML Kit (punto 7). Las apps también los usan para comprobar si hay una versión nueva (punto 4). Las apps no usan internet para enviar los datos de tu negocio.</p>
     </div>
-    <p class="muted" style="margin-top:12px">Las apps <strong>no</strong> piden permiso de ubicación ni de contactos. Las fotos y archivos se eligen con el selector del propio Android, así que las apps solo ven lo que tú eliges, no todo tu almacenamiento.</p>
+    <div class="perm">
+      <h3>SMS de confirmación de pago (solo KuboSales, y solo si lo activas)</h3>
+      <p>Si el dueño configura una forma de pago para que se confirme por SMS (por ejemplo, Transfermóvil con los avisos de PAGOxMOVIL), KuboSales usa el servicio de Google Play «SMS User Consent» mientras el mostrador está abierto. <strong>La app no tiene permiso para leer tus mensajes.</strong> Cuando llega un SMS, Android te pregunta si dejas que KuboSales lea <strong>ese mensaje</strong>, y solo si aceptas la app lo ve. Ningún otro.</p>
+      <p>Del mensaje se sacan el importe y el número de la operación, y solo se usan para confirmar un pago que ya declaraste en una orden: si coinciden el importe y la moneda, la app te pregunta de qué orden es y guarda el número en ese pago, en el teléfono, igual que si lo hubieras escrito. Si el mensaje no coincide con ningún pago, se descarta. El texto del SMS no se guarda ni se envía a ningún sitio. También puedes copiar el SMS y pegarlo, o escribir el número a mano.</p>
+    </div>
+    <p class="muted" style="margin-top:12px">Las apps <strong>no</strong> piden permiso de ubicación ni de contactos, ni permisos para leer o recibir SMS. Las fotos y archivos se eligen con el selector del propio Android, así que las apps solo ven lo que tú eliges, no todo tu almacenamiento.</p>
   </section>
 
   <section class="card">
