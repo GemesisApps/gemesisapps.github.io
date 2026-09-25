@@ -53,6 +53,14 @@
         "Las transferencias de más avisan: no hay vuelto",
         "Avisa cuando hay una versión nueva y enseña lo que trae"
       ]
+    },
+    {
+      "version": 69,
+      "nombre": "4.1",
+      "fecha": "2026-09-25",
+      "novedades": [
+        "Un recorrido guiado por la app: qué es cada cosa y cómo se vende. Lo puedes volver a ver en Ajustes"
+      ]
     }
   ]
 }
