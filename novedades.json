@@ -21,6 +21,14 @@
         "Avisa cuando hay una versión nueva y enseña lo que trae",
         "Arreglado el botón Cerrar de los selectores"
       ]
+    },
+    {
+      "version": 71,
+      "nombre": "4.1",
+      "fecha": "2026-09-25",
+      "novedades": [
+        "Un recorrido guiado por la app: qué es cada cosa y dónde está. Lo puedes volver a ver en Ajustes"
+      ]
     }
   ],
   "sales": [
