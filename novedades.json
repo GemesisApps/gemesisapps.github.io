@@ -34,6 +34,17 @@
         "Un tutorial corto la primera vez que abres la app.",
         "Si trabajas como vendedor e instalas también KuboGo, KuboSales sigue con tu negocio."
       ]
+    },
+    {
+      "version": 68,
+      "nombre": "4.1",
+      "fecha": "2026-09-24",
+      "novedades": [
+        "Transfermóvil: declaras el pago y el SMS del banco lo confirma con su número",
+        "La orden no se cierra con un pago sin confirmar: espera el SMS o pon el número",
+        "Las transferencias de más avisan: no hay vuelto",
+        "Avisa cuando hay una versión nueva y enseña lo que trae"
+      ]
     }
   ]
 }
