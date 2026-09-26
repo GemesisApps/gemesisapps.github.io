@@ -61,6 +61,18 @@
         "Una compra a pagar en una fecha se debe entera desde que llega",
         "Enviar mercancía empieza sin nada marcado, con una casilla para marcarlo todo"
       ]
+    },
+    {
+      "version": 75,
+      "nombre": "4.1",
+      "fecha": "2026-09-26",
+      "novedades": [
+        "Tu mostrador de KuboSales puede llevar su propia cuenta: abres el turno y al cerrarlo te llega lo vendido, sin pasar archivos. Se enciende en Ajustes.",
+        "Ves lo que va cobrando tu mostrador mientras está abierto.",
+        "Puedes dejar que desde el mostrador se mande mercancía a otro sitio sin cerrar el turno.",
+        "Lo que quedó a deber se cobra en el turno donde se vendió.",
+        "Los botones ya no se cortan: si no caben, se ponen uno debajo de otro."
+      ]
     }
   ],
   "sales": [
