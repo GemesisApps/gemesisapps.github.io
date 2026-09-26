@@ -79,6 +79,14 @@
         "Solo acepta avisos de la app de SMS y del remitente exacto del banco",
         "Si registras KuboGo con KuboSales abierta, ya no hace falta cerrarla"
       ]
+    },
+    {
+      "version": 71,
+      "nombre": "4.1",
+      "fecha": "2026-09-26",
+      "novedades": [
+        "Lo que se paga de más sin efectivo no da vuelto: es propina, o del negocio si no hay propinas,Las órdenes abiertas ya no se pierden al cerrar la app,Los formularios suben con el teclado y se desplazan,Si falta el acceso a los avisos del banco, se dice al abrir,El demo abre con su mercancía lista para vender"
+      ]
     }
   ]
 }
