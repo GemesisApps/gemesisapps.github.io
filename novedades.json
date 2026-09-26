@@ -37,6 +37,17 @@
       "novedades": [
         "Transfermóvil: una forma de pago con SMS no se guarda sin su remitente (PAGOxMOVIL)"
       ]
+    },
+    {
+      "version": 73,
+      "nombre": "4.1",
+      "fecha": "2026-09-26",
+      "novedades": [
+        "Lo pagado de más por transferencia llega como utilidad al cuadrar el turno",
+        "Los formularios suben con el teclado y se desplazan",
+        "Quitar va dentro del formulario: abajo quedan Cancelar y Guardar",
+        "El demo abre con su mercancía lista para vender"
+      ]
     }
   ],
   "sales": [
