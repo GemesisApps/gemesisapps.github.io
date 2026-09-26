@@ -115,6 +115,16 @@
         "Si falta el acceso a los avisos del banco, se dice al abrir",
         "El demo abre con su mercancía lista para vender"
       ]
+    },
+    {
+      "version": 72,
+      "nombre": "4.1",
+      "fecha": "2026-09-26",
+      "novedades": [
+        "Al abrir, avisa si falta el acceso a los avisos del banco",
+        "La entrega de un proveedor con Kubo se reconoce y se abre en KuboGo",
+        "Textos al día: compradores en vez de comerciales"
+      ]
     }
   ]
 }
