@@ -48,6 +48,19 @@
         "Quitar va dentro del formulario: abajo quedan Cancelar y Guardar",
         "El demo abre con su mercancía lista para vender"
       ]
+    },
+    {
+      "version": 74,
+      "nombre": "4.1",
+      "fecha": "2026-09-26",
+      "novedades": [
+        "Compradores en vez de comerciales: sin comisión, y si usan Kubo, con su WhatsApp",
+        "Al entregar a un comprador eliges cuándo te paga: al recibir, en una fecha o según venda",
+        "Si usa Kubo le mandas el manifiesto y lo recibe como compra sin teclearlo; si no, el albarán en texto",
+        "Las entregas de tus proveedores con Kubo entran como compra con un toque, y les avisas que llegó conforme",
+        "Una compra a pagar en una fecha se debe entera desde que llega",
+        "Enviar mercancía empieza sin nada marcado, con una casilla para marcarlo todo"
+      ]
     }
   ],
   "sales": [
