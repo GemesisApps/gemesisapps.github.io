@@ -69,6 +69,16 @@
       "novedades": [
         "Un recorrido guiado por la app: qué es cada cosa y cómo se vende. Lo puedes volver a ver en Ajustes"
       ]
+    },
+    {
+      "version": 70,
+      "nombre": "4.1",
+      "fecha": "2026-09-25",
+      "novedades": [
+        "Transfermóvil se confirma solo: al llegar el SMS de PAGOxMOVIL, la app lo cruza con el pago y guarda el número (necesita acceso a notificaciones)",
+        "Solo acepta avisos de la app de SMS y del remitente exacto del banco",
+        "Si registras KuboGo con KuboSales abierta, ya no hace falta cerrarla"
+      ]
     }
   ]
 }
