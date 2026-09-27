@@ -82,6 +82,15 @@
         "Los formularios ya no saltan al escribir en teléfonos de pantalla pequeña.",
         "Categorías: renombrar y borrar con su icono, y el nombre se lee entero."
       ]
+    },
+    {
+      "version": 77,
+      "nombre": "4.1",
+      "fecha": "2026-09-26",
+      "novedades": [
+        "Las existencias del mostrador bajan bien al vender cuando el negocio también tiene almacén.",
+        "Buscar actualizaciones en Ajustes: el aviso de versión nueva sale una sola vez y actualizas cuando quieras."
+      ]
     }
   ],
   "sales": [
