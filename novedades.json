@@ -91,6 +91,17 @@
         "Las existencias del mostrador bajan bien al vender cuando el negocio también tiene almacén.",
         "Buscar actualizaciones en Ajustes: el aviso de versión nueva sale una sola vez y actualizas cuando quieras."
       ]
+    },
+    {
+      "version": 78,
+      "nombre": "4.1",
+      "fecha": "2026-09-27",
+      "novedades": [
+        "Los turnos que pasan de un vendedor a otro se cuadran completos, con el dinero de todos.",
+        "Tu KuboSales en el mismo teléfono va siempre con su propia cuenta, sin registrarla ni encender nada.",
+        "Tu KuboSales puede recibir y pasar turnos como un vendedor más.",
+        "Ya no aparece el recorrido guiado."
+      ]
     }
   ],
   "sales": [
