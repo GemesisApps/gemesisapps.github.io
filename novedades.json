@@ -149,6 +149,14 @@
         "Lo que quedó a deber se cobra en el turno donde se vendió.",
         "Los botones ya no se cortan: si no caben, se ponen uno debajo de otro."
       ]
+    },
+    {
+      "version": 74,
+      "nombre": "4.1",
+      "fecha": "2026-09-26",
+      "novedades": [
+        "La plantilla de WhatsApp y los demás formularios ya no saltan al escribir en teléfonos de pantalla pequeña."
+      ]
     }
   ]
 }
