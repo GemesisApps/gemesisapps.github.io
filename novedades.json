@@ -216,6 +216,17 @@
         "En el teléfono del dueño, KuboSales abre y cierra el turno con KuboGo sin registrarse ni pasar archivos.",
         "Ya no aparece el recorrido guiado."
       ]
+    },
+    {
+      "version": 77,
+      "nombre": "4.1",
+      "fecha": "2026-09-27",
+      "novedades": [
+        "Las reglas pasan con el turno al siguiente vendedor.",
+        "Cuando el dueño cambia algo de tu turno, te lo enseña para que lo aceptes.",
+        "Al cerrar ves cómo fue tu turno.",
+        "Al abrir el turno ves cuántos productos recibes; el detalle está en Inventario."
+      ]
     }
   ]
 }
