@@ -102,6 +102,16 @@
         "Tu KuboSales puede recibir y pasar turnos como un vendedor más.",
         "Ya no aparece el recorrido guiado."
       ]
+    },
+    {
+      "version": 79,
+      "nombre": "4.1",
+      "fecha": "2026-09-27",
+      "novedades": [
+        "Puedes mandar al turno abierto lo que cambiaste: reglas, tasas, precios y productos nuevos.",
+        "El cuadre enseña cómo fue el turno: quién vendió, cuándo cambió de mano y qué cambios se aplicaron.",
+        "Las ventas con descuento o con otro precio se apuntan exactas en tu ganancia."
+      ]
     }
   ],
   "sales": [
