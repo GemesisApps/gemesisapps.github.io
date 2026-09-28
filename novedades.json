@@ -134,6 +134,15 @@
         "Si la app no pudo abrir tu negocio, lo recupera sola",
         "Más protección para que tus datos no se pierdan"
       ]
+    },
+    {
+      "version": 82,
+      "nombre": "4.1",
+      "fecha": "2026-09-28",
+      "novedades": [
+        "Un ciclo de venta con varios vendedores se ve como un solo cierre, con cada turno dentro",
+        "El reporte del cierre muestra solo los productos que se movieron"
+      ]
     }
   ],
   "sales": [
