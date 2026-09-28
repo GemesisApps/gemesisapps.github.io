@@ -124,6 +124,16 @@
         "Nuevo ajuste: que los vendedores vean o no las órdenes de los turnos anteriores",
         "Lo que abres y cierras en KuboGo ahora se llama ciclo de venta"
       ]
+    },
+    {
+      "version": 81,
+      "nombre": "4.1",
+      "fecha": "2026-09-27",
+      "novedades": [
+        "La app abre más rápido",
+        "Si la app no pudo abrir tu negocio, lo recupera sola",
+        "Más protección para que tus datos no se pierdan"
+      ]
     }
   ],
   "sales": [
