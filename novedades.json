@@ -112,6 +112,18 @@
         "El cuadre enseña cómo fue el turno: quién vendió, cuándo cambió de mano y qué cambios se aplicaron.",
         "Las ventas con descuento o con otro precio se apuntan exactas en tu ganancia."
       ]
+    },
+    {
+      "version": 80,
+      "nombre": "4.1",
+      "fecha": "2026-09-27",
+      "novedades": [
+        "El cierre del turno vuelve a llegar por WhatsApp con su archivo",
+        "Puedes abrir cualquier archivo de tu negocio y cerrar el ciclo de venta con el pase de un vendedor",
+        "Al mandar una actualización eliges a quién va",
+        "Nuevo ajuste: que los vendedores vean o no las órdenes de los turnos anteriores",
+        "Lo que abres y cierras en KuboGo ahora se llama ciclo de venta"
+      ]
     }
   ],
   "sales": [
