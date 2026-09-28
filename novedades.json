@@ -261,6 +261,15 @@
         "El turno que te pasan se abre aunque tu compañero se diera de alta después que tú",
         "Si el dueño lo permite, ves las órdenes de los turnos anteriores"
       ]
+    },
+    {
+      "version": 79,
+      "nombre": "4.1",
+      "fecha": "2026-09-28",
+      "novedades": [
+        "La app abre más rápido",
+        "Más protección para que tus datos no se pierdan"
+      ]
     }
   ]
 }
