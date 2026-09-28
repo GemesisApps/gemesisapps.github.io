@@ -239,6 +239,18 @@
         "Al cerrar ves cómo fue tu turno.",
         "Al abrir el turno ves cuántos productos recibes; el detalle está en Inventario."
       ]
+    },
+    {
+      "version": 78,
+      "nombre": "4.1",
+      "fecha": "2026-09-27",
+      "novedades": [
+        "El cierre del turno vuelve a llegar al dueño por WhatsApp con su archivo",
+        "Un solo botón, Terminar turno: lo cierras con el dueño o se lo pasas a otro vendedor",
+        "Reenviar va a quien le pasaste el turno",
+        "El turno que te pasan se abre aunque tu compañero se diera de alta después que tú",
+        "Si el dueño lo permite, ves las órdenes de los turnos anteriores"
+      ]
     }
   ]
 }
