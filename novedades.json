@@ -143,6 +143,14 @@
         "Un ciclo de venta con varios vendedores se ve como un solo cierre, con cada turno dentro",
         "El reporte del cierre muestra solo los productos que se movieron"
       ]
+    },
+    {
+      "version": 83,
+      "nombre": "4.1",
+      "fecha": "2026-09-28",
+      "novedades": [
+        "Las jornadas se ven por día y hora, con lo vendido y los tickets de cada turno dentro"
+      ]
     }
   ],
   "sales": [
