@@ -315,6 +315,19 @@
         "La app abre más rápido",
         "Más protección para que tus datos no se pierdan"
       ]
+    },
+    {
+      "version": 80,
+      "nombre": "4.1",
+      "fecha": "2026-09-29",
+      "novedades": [
+        "Tu mostrador dice quién tiene la jornada en vez de ofrecer abrirla",
+        "El turno que te pasa el mostrador del dueño se abre sin pedir nada",
+        "Si quitas KuboGo del teléfono, tu mostrador guarda lo pendiente hasta entregarlo",
+        "Abrir un archivo ya no deja la pantalla congelada",
+        "Al publicar por WhatsApp ya no desaparecen las opciones del mensaje",
+        "Los botones de acción se ven en línea también en pantallas estrechas"
+      ]
     }
   ]
 }
