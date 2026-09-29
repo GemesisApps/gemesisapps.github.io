@@ -160,6 +160,14 @@
         "Al abrir una jornada eliges quién la abre: tú o uno de tus vendedores",
         "Los botones de acción se ven en línea también en pantallas estrechas"
       ]
+    },
+    {
+      "version": 85,
+      "nombre": "4.1",
+      "fecha": "2026-09-28",
+      "novedades": [
+        "Más seguridad al pasar el turno entre tu mostrador y tus vendedores"
+      ]
     }
   ],
   "sales": [
