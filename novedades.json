@@ -151,6 +151,15 @@
       "novedades": [
         "Las jornadas se ven por día y hora, con lo vendido y los tickets de cada turno dentro"
       ]
+    },
+    {
+      "version": 84,
+      "nombre": "4.1",
+      "fecha": "2026-09-28",
+      "novedades": [
+        "Al abrir una jornada eliges quién la abre: tú o uno de tus vendedores",
+        "Los botones de acción se ven en línea también en pantallas estrechas"
+      ]
     }
   ],
   "sales": [
