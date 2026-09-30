@@ -328,6 +328,18 @@
         "Al publicar por WhatsApp ya no desaparecen las opciones del mensaje",
         "Los botones de acción se ven en línea también en pantallas estrechas"
       ]
+    },
+    {
+      "version": 81,
+      "nombre": "4.1",
+      "fecha": "2026-09-29",
+      "novedades": [
+        "Cambiar el nombre de un producto ya no lo duplica: sigue siendo el mismo, con sus existencias y sus ventas",
+        "Los precios y productos que cambias en KuboGo llegan al momento a tu KuboSales del mismo teléfono",
+        "Si cambias un precio a mitad de turno, el cierre cuadra exacto",
+        "El mostrador va más fluido en tablets y teléfonos modestos",
+        "En tablet vertical, la orden va abajo como en el teléfono"
+      ]
     }
   ]
 }
