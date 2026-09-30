@@ -191,6 +191,17 @@
         "Abrir y cuadrar jornadas grandes ya no congela la pantalla",
         "Actualiza también KuboSales en los teléfonos de tus vendedores"
       ]
+    },
+    {
+      "version": 88,
+      "nombre": "4.1.1",
+      "fecha": "2026-09-30",
+      "novedades": [
+        "Un producto nuevo que añades con la jornada abierta llega a tu KuboSales con su cantidad",
+        "Las categorías de precio, las presentaciones y los ajustes del punto de venta que cambias llegan a tu KuboSales, y lo que quitas también se quita",
+        "El historial de precios de cada producto se ve en su ficha",
+        "Un producto que cambiaste de nombre ya no sale repetido en el mostrador"
+      ]
     }
   ],
   "sales": [
