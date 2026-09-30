@@ -179,6 +179,18 @@
         "Abrir un archivo ya no deja la pantalla congelada",
         "Tu mostrador recibe la jornada aunque tenga KuboSales cerrada"
       ]
+    },
+    {
+      "version": 87,
+      "nombre": "4.1",
+      "fecha": "2026-09-29",
+      "novedades": [
+        "Cambiar el nombre de un producto ya no crea otro: conserva sus compras, ventas y precios",
+        "Los cambios que haces llegan al momento a tu KuboSales del mismo teléfono",
+        "Si cambias un precio a mitad de jornada, el cierre cuadra exacto",
+        "Abrir y cuadrar jornadas grandes ya no congela la pantalla",
+        "Actualiza también KuboSales en los teléfonos de tus vendedores"
+      ]
     }
   ],
   "sales": [
