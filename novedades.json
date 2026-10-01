@@ -373,6 +373,14 @@
         "Las categorías de precio, las presentaciones y los ajustes del punto de venta se mantienen al día, y lo que el dueño quita también se quita",
         "Un producto que cambió de nombre ya no sale repetido en el mostrador"
       ]
+    },
+    {
+      "version": 83,
+      "nombre": "4.1.2",
+      "fecha": "2026-09-30",
+      "novedades": [
+        "En el reporte de inventario, la mercancía que llega con el turno ya abierto sale como entrada y no como inventario inicial"
+      ]
     }
   ]
 }
