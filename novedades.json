@@ -1,17 +1,6 @@
 {
   "go": [
     {
-      "version": 70,
-      "nombre": "4.1",
-      "fecha": "2026-09-24",
-      "novedades": [
-        "Formas de pago con confirmación por SMS del banco",
-        "Transfermóvil preparada para negocios de Cuba (se enciende en Ajustes)",
-        "Avisa cuando hay una versión nueva y enseña lo que trae",
-        "Arreglado el botón Cerrar de los selectores"
-      ]
-    },
-    {
       "version": 71,
       "nombre": "4.1",
       "fecha": "2026-09-25",
@@ -198,6 +187,18 @@
       "fecha": "2026-09-30",
       "novedades": [
         "En el reporte de inventario, la mercancía que llega con el turno ya abierto sale como entrada y no como inventario inicial"
+      ]
+    },
+    {
+      "version": 90,
+      "nombre": "4.1.3",
+      "fecha": "2026-09-30",
+      "novedades": [
+        "Concilia el cierre de un turno con KuboGo en un toque",
+        "Los cobros en dólares se ven en la caja de KuboGo",
+        "Lo que configuras en KuboGo llega siempre a KuboSales",
+        "Una orden fiada se puede saldar del todo",
+        "Cancelar una orden ya no deja órdenes en cero"
       ]
     }
   ],
