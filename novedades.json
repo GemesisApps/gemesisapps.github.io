@@ -408,6 +408,17 @@
         "Puedes conciliar el cierre desde el turno, aunque ya estuviera contado",
         "Más estable con catálogos grandes y con fotos"
       ]
+    },
+    {
+      "version": 86,
+      "nombre": "4.1.5",
+      "fecha": "2026-10-01",
+      "novedades": [
+        "Te avisa al abrir si hay turnos por conciliar con KuboGo y los concilias todos de una vez",
+        "Cobrar en dólares con vuelto ya no se bloquea por unos céntimos",
+        "El botón Conciliar cierre sale solo cuando hace falta",
+        "Las órdenes abiertas no se pierden si algo falla al abrir la app"
+      ]
     }
   ]
 }
