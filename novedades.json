@@ -1,17 +1,6 @@
 {
   "go": [
     {
-      "version": 73,
-      "nombre": "4.1",
-      "fecha": "2026-09-26",
-      "novedades": [
-        "Lo pagado de más por transferencia llega como utilidad al cuadrar el turno",
-        "Los formularios suben con el teclado y se desplazan",
-        "Quitar va dentro del formulario: abajo quedan Cancelar y Guardar",
-        "El demo abre con su mercancía lista para vender"
-      ]
-    },
-    {
       "version": 74,
       "nombre": "4.1",
       "fecha": "2026-09-26",
@@ -205,6 +194,15 @@
         "Los cobros con vuelto en dólares cuadran al céntimo",
         "Ya no avisa de actualizaciones sin aplicar que tu mostrador sí recibió",
         "Las fotos de los productos ya no se reenvían sin hacer falta"
+      ]
+    },
+    {
+      "version": 93,
+      "nombre": "4.1.6",
+      "fecha": "2026-10-01",
+      "novedades": [
+        "Los cambios que llegan de una actualización se leen agrupados, sin listas largas repetidas",
+        "Al conciliar un turno, el aviso desaparece en cuanto queda en KuboGo"
       ]
     }
   ],
