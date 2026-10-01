@@ -1,14 +1,6 @@
 {
   "go": [
     {
-      "version": 72,
-      "nombre": "4.1",
-      "fecha": "2026-09-25",
-      "novedades": [
-        "Transfermóvil: una forma de pago con SMS no se guarda sin su remitente (PAGOxMOVIL)"
-      ]
-    },
-    {
       "version": 73,
       "nombre": "4.1",
       "fecha": "2026-09-26",
@@ -202,6 +194,17 @@
         "Una jornada en la que alguien vende dos veces se cuadra completa",
         "Los cierres de tu mostrador se validan aunque ya estuvieran contados",
         "La conciliación de un cierre se hace desde KuboSales"
+      ]
+    },
+    {
+      "version": 92,
+      "nombre": "4.1.5",
+      "fecha": "2026-10-01",
+      "novedades": [
+        "Corrige la caja de los turnos que se contaron en pesos teniendo dólares",
+        "Los cobros con vuelto en dólares cuadran al céntimo",
+        "Ya no avisa de actualizaciones sin aplicar que tu mostrador sí recibió",
+        "Las fotos de los productos ya no se reenvían sin hacer falta"
       ]
     }
   ],
