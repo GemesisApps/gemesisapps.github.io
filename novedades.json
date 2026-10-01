@@ -1,17 +1,6 @@
 {
   "go": [
     {
-      "version": 69,
-      "nombre": "4.1",
-      "fecha": "2026-09-24",
-      "novedades": [
-        "Las fotos de los productos se ven nítidas, y la app las ajusta sola al tamaño justo.",
-        "Iconos en los botones, para encontrar cada acción de un vistazo.",
-        "Un tutorial corto la primera vez que abres la app.",
-        "Si un vendedor instala también KuboGo, su KuboSales sigue funcionando con su negocio."
-      ]
-    },
-    {
       "version": 70,
       "nombre": "4.1",
       "fecha": "2026-09-24",
@@ -201,6 +190,14 @@
         "Las categorías de precio, las presentaciones y los ajustes del punto de venta que cambias llegan a tu KuboSales, y lo que quitas también se quita",
         "El historial de precios de cada producto se ve en su ficha",
         "Un producto que cambiaste de nombre ya no sale repetido en el mostrador"
+      ]
+    },
+    {
+      "version": 89,
+      "nombre": "4.1.2",
+      "fecha": "2026-09-30",
+      "novedades": [
+        "En el reporte de inventario, la mercancía que llega con el turno ya abierto sale como entrada y no como inventario inicial"
       ]
     }
   ],
