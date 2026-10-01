@@ -394,6 +394,17 @@
         "Una orden fiada se puede saldar del todo",
         "Cancelar una orden ya no deja órdenes en cero"
       ]
+    },
+    {
+      "version": 85,
+      "nombre": "4.1.4",
+      "fecha": "2026-10-01",
+      "novedades": [
+        "Al cerrar el turno ves lo que de verdad pasó en KuboGo",
+        "Te avisa si KuboGo necesita actualizarse",
+        "Puedes conciliar el cierre desde el turno, aunque ya estuviera contado",
+        "Más estable con catálogos grandes y con fotos"
+      ]
     }
   ]
 }
