@@ -1,14 +1,6 @@
 {
   "go": [
     {
-      "version": 71,
-      "nombre": "4.1",
-      "fecha": "2026-09-25",
-      "novedades": [
-        "Un recorrido guiado por la app: qué es cada cosa y dónde está. Lo puedes volver a ver en Ajustes"
-      ]
-    },
-    {
       "version": 72,
       "nombre": "4.1",
       "fecha": "2026-09-25",
@@ -199,6 +191,17 @@
         "Lo que configuras en KuboGo llega siempre a KuboSales",
         "Una orden fiada se puede saldar del todo",
         "Cancelar una orden ya no deja órdenes en cero"
+      ]
+    },
+    {
+      "version": 91,
+      "nombre": "4.1.4",
+      "fecha": "2026-10-01",
+      "novedades": [
+        "Más estable con catálogos grandes y con fotos",
+        "Una jornada en la que alguien vende dos veces se cuadra completa",
+        "Los cierres de tu mostrador se validan aunque ya estuvieran contados",
+        "La conciliación de un cierre se hace desde KuboSales"
       ]
     }
   ],
