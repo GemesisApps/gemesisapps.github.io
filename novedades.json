@@ -208,17 +208,6 @@
   ],
   "sales": [
     {
-      "version": 68,
-      "nombre": "4.1",
-      "fecha": "2026-09-24",
-      "novedades": [
-        "Transfermóvil: declaras el pago y el SMS del banco lo confirma con su número",
-        "La orden no se cierra con un pago sin confirmar: espera el SMS o pon el número",
-        "Las transferencias de más avisan: no hay vuelto",
-        "Avisa cuando hay una versión nueva y enseña lo que trae"
-      ]
-    },
-    {
       "version": 69,
       "nombre": "4.1",
       "fecha": "2026-09-25",
@@ -414,6 +403,15 @@
       "novedades": [
         "Los cambios que llegan de una actualización se leen agrupados, sin listas largas repetidas",
         "Al conciliar un turno con KuboGo, el botón y el aviso desaparecen en cuanto entra"
+      ]
+    },
+    {
+      "version": 88,
+      "nombre": "4.1.6",
+      "fecha": "2026-10-04",
+      "novedades": [
+        "Al cerrar el turno, la ventana se cierra sola cuando KuboGo lo recibe",
+        "Ya no pide conciliar un turno que KuboGo ya tiene"
       ]
     }
   ]
