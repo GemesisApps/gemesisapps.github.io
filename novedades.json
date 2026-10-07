@@ -207,14 +207,6 @@
   ],
   "sales": [
     {
-      "version": 69,
-      "nombre": "4.1",
-      "fecha": "2026-09-25",
-      "novedades": [
-        "Un recorrido guiado por la app: qué es cada cosa y cómo se vende. Lo puedes volver a ver en Ajustes"
-      ]
-    },
-    {
       "version": 70,
       "nombre": "4.1",
       "fecha": "2026-09-25",
@@ -411,6 +403,17 @@
       "novedades": [
         "Al cerrar el turno, la ventana se cierra sola cuando KuboGo lo recibe",
         "Ya no pide conciliar un turno que KuboGo ya tiene"
+      ]
+    },
+    {
+      "version": 89,
+      "nombre": "4.2.0",
+      "fecha": "2026-10-07",
+      "novedades": [
+        "Caja con dependientes: otros teléfonos toman los pedidos y cobran para tu caja",
+        "Cada dependiente ve solo sus órdenes y su parte del turno",
+        "Al abrir el turno en el teléfono del dueño eliges con cuánto dinero empieza la caja",
+        "Una X en el buscador para borrar lo escrito de un toque"
       ]
     }
   ]
