@@ -1,18 +1,6 @@
 {
   "go": [
     {
-      "version": 75,
-      "nombre": "4.1",
-      "fecha": "2026-09-26",
-      "novedades": [
-        "Tu mostrador de KuboSales puede llevar su propia cuenta: abres el turno y al cerrarlo te llega lo vendido, sin pasar archivos. Se enciende en Ajustes.",
-        "Ves lo que va cobrando tu mostrador mientras está abierto.",
-        "Puedes dejar que desde el mostrador se mande mercancía a otro sitio sin cerrar el turno.",
-        "Lo que quedó a deber se cobra en el turno donde se vendió.",
-        "Los botones ya no se cortan: si no caben, se ponen uno debajo de otro."
-      ]
-    },
-    {
       "version": 76,
       "nombre": "4.1",
       "fecha": "2026-09-26",
@@ -202,6 +190,15 @@
         "Al abrir tu mostrador en este teléfono eliges con cuánto dinero empieza la caja",
         "La mercancía que pasas al mostrador con el turno abierto llega bien, una sola vez",
         "Una X en el buscador para borrar lo escrito de un toque"
+      ]
+    },
+    {
+      "version": 95,
+      "nombre": "4.2.1",
+      "fecha": "2026-10-09",
+      "novedades": [
+        "Un cierre que llega cuando su jornada ya se cerró se puede apuntar o dejar fuera, y KuboSales deja de pedir conciliarlo",
+        "Un cierre nunca se cuenta dos veces, aunque llegue repetido o desde una KuboSales reinstalada"
       ]
     }
   ],
