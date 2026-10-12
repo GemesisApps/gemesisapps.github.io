@@ -203,18 +203,6 @@
   ],
   "sales": [
     {
-      "version": 71,
-      "nombre": "4.1",
-      "fecha": "2026-09-26",
-      "novedades": [
-        "Lo que se paga de más sin efectivo no da vuelto: es propina, o del negocio si no hay propinas",
-        "Las órdenes abiertas ya no se pierden al cerrar la app",
-        "Los formularios suben con el teclado y se desplazan",
-        "Si falta el acceso a los avisos del banco, se dice al abrir",
-        "El demo abre con su mercancía lista para vender"
-      ]
-    },
-    {
       "version": 72,
       "nombre": "4.1",
       "fecha": "2026-09-26",
@@ -408,6 +396,14 @@
       "fecha": "2026-10-09",
       "novedades": [
         "El aviso de conciliar se quita solo en cuanto KuboGo acepta el cierre"
+      ]
+    },
+    {
+      "version": 91,
+      "nombre": "4.2.2",
+      "fecha": "2026-10-11",
+      "novedades": [
+        "Al renovar la licencia, la nueva fecha llega a todos los teléfonos del negocio y ninguno se cierra antes de tiempo"
       ]
     }
   ]
