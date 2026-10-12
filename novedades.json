@@ -1,15 +1,6 @@
 {
   "go": [
     {
-      "version": 76,
-      "nombre": "4.1",
-      "fecha": "2026-09-26",
-      "novedades": [
-        "Los formularios ya no saltan al escribir en teléfonos de pantalla pequeña.",
-        "Categorías: renombrar y borrar con su icono, y el nombre se lee entero."
-      ]
-    },
-    {
       "version": 77,
       "nombre": "4.1",
       "fecha": "2026-09-26",
@@ -199,6 +190,14 @@
       "novedades": [
         "Un cierre que llega cuando su jornada ya se cerró se puede apuntar o dejar fuera, y KuboSales deja de pedir conciliarlo",
         "Un cierre nunca se cuenta dos veces, aunque llegue repetido o desde una KuboSales reinstalada"
+      ]
+    },
+    {
+      "version": 96,
+      "nombre": "4.2.2",
+      "fecha": "2026-10-11",
+      "novedades": [
+        "Al renovar la licencia, la nueva fecha llega a todos los teléfonos del negocio y ninguno se cierra antes de tiempo"
       ]
     }
   ],
