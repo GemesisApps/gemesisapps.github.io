@@ -1,15 +1,6 @@
 {
   "go": [
     {
-      "version": 77,
-      "nombre": "4.1",
-      "fecha": "2026-09-26",
-      "novedades": [
-        "Las existencias del mostrador bajan bien al vender cuando el negocio también tiene almacén.",
-        "Buscar actualizaciones en Ajustes: el aviso de versión nueva sale una sola vez y actualizas cuando quieras."
-      ]
-    },
-    {
       "version": 78,
       "nombre": "4.1",
       "fecha": "2026-09-27",
@@ -198,6 +189,18 @@
       "fecha": "2026-10-11",
       "novedades": [
         "Al renovar la licencia, la nueva fecha llega a todos los teléfonos del negocio y ninguno se cierra antes de tiempo"
+      ]
+    },
+    {
+      "version": 97,
+      "nombre": "4.3.0",
+      "fecha": "2026-10-13",
+      "novedades": [
+        "El cierre de tu propio mostrador se cuadra solo, sin pasar por KuboGo",
+        "Lo vendido sin existencias se descuenta primero de lo que ya tienes, al mismo precio",
+        "Ajusta el inventario de un sitio contando lo que hay",
+        "El informe del cierre trae el inventario que entregó el turno",
+        "Sacar ganancia funciona también con cifras con decimales"
       ]
     }
   ],
