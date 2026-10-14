@@ -206,16 +206,6 @@
   ],
   "sales": [
     {
-      "version": 72,
-      "nombre": "4.1",
-      "fecha": "2026-09-26",
-      "novedades": [
-        "Al abrir, avisa si falta el acceso a los avisos del banco",
-        "La entrega de un proveedor con Kubo se reconoce y se abre en KuboGo",
-        "Textos al día: compradores en vez de comerciales"
-      ]
-    },
-    {
       "version": 73,
       "nombre": "4.1",
       "fecha": "2026-09-26",
@@ -407,6 +397,17 @@
       "fecha": "2026-10-11",
       "novedades": [
         "Al renovar la licencia, la nueva fecha llega a todos los teléfonos del negocio y ninguno se cierra antes de tiempo"
+      ]
+    },
+    {
+      "version": 92,
+      "nombre": "4.3.0",
+      "fecha": "2026-10-13",
+      "novedades": [
+        "Si la caja no cuadra, la app te dice qué productos pueden explicarlo y te guía para ajustarlo",
+        "El conteo del inventario se guarda y va con el cierre del turno",
+        "Las jornadas se ven igual que en KuboGo, con el fondo de caja aparte",
+        "Con vender sin existencias, el producto agotado sigue en el mostrador"
       ]
     }
   ]
