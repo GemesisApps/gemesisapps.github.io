@@ -1,17 +1,6 @@
 {
   "go": [
     {
-      "version": 78,
-      "nombre": "4.1",
-      "fecha": "2026-09-27",
-      "novedades": [
-        "Los turnos que pasan de un vendedor a otro se cuadran completos, con el dinero de todos.",
-        "Tu KuboSales en el mismo teléfono va siempre con su propia cuenta, sin registrarla ni encender nada.",
-        "Tu KuboSales puede recibir y pasar turnos como un vendedor más.",
-        "Ya no aparece el recorrido guiado."
-      ]
-    },
-    {
       "version": 79,
       "nombre": "4.1",
       "fecha": "2026-09-27",
@@ -201,6 +190,15 @@
         "Ajusta el inventario de un sitio contando lo que hay",
         "El informe del cierre trae el inventario que entregó el turno",
         "Sacar ganancia funciona también con cifras con decimales"
+      ]
+    },
+    {
+      "version": 98,
+      "nombre": "4.3.1",
+      "fecha": "2026-10-19",
+      "novedades": [
+        "La app ocupa menos espacio",
+        "El lector de códigos ya no cierra la app al salir de él"
       ]
     }
   ],
