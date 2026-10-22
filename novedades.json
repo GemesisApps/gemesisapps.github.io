@@ -1,16 +1,6 @@
 {
   "go": [
     {
-      "version": 79,
-      "nombre": "4.1",
-      "fecha": "2026-09-27",
-      "novedades": [
-        "Puedes mandar al turno abierto lo que cambiaste: reglas, tasas, precios y productos nuevos.",
-        "El cuadre enseña cómo fue el turno: quién vendió, cuándo cambió de mano y qué cambios se aplicaron.",
-        "Las ventas con descuento o con otro precio se apuntan exactas en tu ganancia."
-      ]
-    },
-    {
       "version": 80,
       "nombre": "4.1",
       "fecha": "2026-09-27",
@@ -199,6 +189,17 @@
       "novedades": [
         "La app ocupa menos espacio",
         "El lector de códigos ya no cierra la app al salir de él"
+      ]
+    },
+    {
+      "version": 99,
+      "nombre": "4.3.2",
+      "fecha": "2026-10-21",
+      "novedades": [
+        "Una compra se guarda una sola vez aunque toques dos veces «Guardar»",
+        "Lo que das de entrada con tu mostrador abierto llega una sola vez a KuboSales",
+        "Al cerrar el turno se reconoce lo vendido de una compra hecha a media jornada, aunque le cambiaras el precio",
+        "La app ya no da de entrada compras que no hiciste, y las que supone se ven como «Compra estimada»"
       ]
     }
   ],
