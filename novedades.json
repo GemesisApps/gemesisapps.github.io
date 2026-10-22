@@ -205,14 +205,6 @@
   ],
   "sales": [
     {
-      "version": 74,
-      "nombre": "4.1",
-      "fecha": "2026-09-26",
-      "novedades": [
-        "La plantilla de WhatsApp y los demás formularios ya no saltan al escribir en teléfonos de pantalla pequeña."
-      ]
-    },
-    {
       "version": 75,
       "nombre": "4.1",
       "fecha": "2026-09-26",
@@ -404,6 +396,15 @@
       "novedades": [
         "La app ocupa menos espacio",
         "El lector de códigos ya no cierra la app al salir de él"
+      ]
+    },
+    {
+      "version": 94,
+      "nombre": "4.3.2",
+      "fecha": "2026-10-21",
+      "novedades": [
+        "Lo que entra a media jornada se suma una sola vez",
+        "Al cerrar el turno vuelve todo lo vendido, también lo que llegó a media jornada"
       ]
     }
   ]
